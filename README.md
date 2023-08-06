@@ -18,9 +18,9 @@ Procedure:
 
 
 4. In the field URL, for the first entry add the below formula to cell:
-   =ArrayFormula(if(B2:B="",,"https://docs.google.com/forms/d/e/1FAIpQLSd0tka1HzQtaUKDJTUj3a7zouIs2fq64qVKqOoRYtfPa5uqJA/formResponse?entry.13831516="&encodeurl(B2:B))) \n
+   =ArrayFormula(if(B2:B="",,"https://docs.google.com/forms/d/e/1FAIpQLSd0tka1HzQtaUKDJTUj3a7zouIs2fq64qVKqOoRYtfPa5uqJA/formResponse?entry.13831516="&encodeurl(B2:B))) <br>
    Set your respective link in the above formula. In your original formula it will be viewResponse change it to formResponse and after question mark delete the repective 
-   part as referred in the formula.
+   part as referred in the formula.<br>
    Column B has all the email addresses. If you have emailids in different column, change B to the respective letter according to your spreadsheet.
 
 
@@ -29,7 +29,7 @@ Procedure:
 
    
 5. For QR column add the below formula to the cell of first entry:
-   =ArrayFormula(if(C2:C="",,image("https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl="&F2:F))) \n
+   =ArrayFormula(if(C2:C="",,image("https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl="&F2:F))) <br>
    Column F has all the URLS. Column C is the column having name of all participants. If you have these things in different column, change it accordingly.
 
   
