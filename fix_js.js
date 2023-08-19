@@ -1,6 +1,6 @@
 function sendLastQRCodeEmail() {
   var emailSubject = "QR Code for your response";
-  var qrCodeColumnIndex = 6; // Assuming the QR code URLs are in column C (column index is 6)
+  var qrCodeColumnIndex = 6; // Assuming the QR code URLs are in column C (column index is 3)
 
   var sheet = SpreadsheetApp.getActiveSheet();
   var dataRange = sheet.getDataRange();
