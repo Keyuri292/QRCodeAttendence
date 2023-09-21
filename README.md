@@ -37,5 +37,5 @@ Procedure:
 
    
 6. In spreadsheet, go to extensions. Extensions will be on the top, it is also visible in the screenshot attached above. In extensions go to apps script.
-7. In AppsScript, paste the java script code in code section from the attached javascript file. MAke changes according to your spreadsheet. Save and run the code.
+7. In AppsScript, paste the java script code in code section from the attached javascript file. Make changes according to your spreadsheet. Save and run the code.
 8. Set the trigger to onFormSubmit in trigger section of AppsScript.
